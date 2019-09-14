@@ -59,7 +59,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/Clark_Kent_by_Gary_Frank" />
+                    app:srcCompat="@drawable/clark" />
             </LinearLayout>
 
         </LinearLayout>
@@ -82,7 +82,7 @@
 
         <LinearLayout
             android:layout_width="358dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -96,10 +96,10 @@
 
                 <TextView
                     android:id="@+id/textView1"
+                    style="@style/sh2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bruce Wayne"
-                    style = "@style/sh2"/>
+                    android:text="Bruce Wayne" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -142,7 +142,7 @@
 
         <LinearLayout
             android:layout_width="358dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -156,11 +156,10 @@
 
                 <TextView
                     android:id="@+id/textView1"
+                    style="@style/sh3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Obama"
-                    style = "@style/sh3"
-                   />
+                    android:text="Obama" />
 
                 <TextView
                     android:id="@+id/textView2"
